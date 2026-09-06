@@ -114,8 +114,8 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["remote.gesoft.ro"];
-pub const RS_PUB_KEY: &str = "X6NVbI1tw9PJpgGQvhBzKGman282By+A711jc1wnl34=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["192.168.99.68"];
+pub const RS_PUB_KEY: &str = "a2aQcyA781pUpgKlvreJN+aW1mRdj2MWVPABtbdo48I=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
