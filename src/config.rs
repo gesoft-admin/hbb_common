@@ -1,3 +1,9 @@
+// Modified by Gesoft on 2026-09-06 (RENDEZVOUS_SERVERS, RS_PUB_KEY) and
+// 2026-09-08 (APP_NAME), to point this build at a self-hosted rendezvous
+// server and give it its own configuration namespace. Those three constants
+// are the only changes in this repository. See CHANGES-GESOFT.md in the parent
+// RustDesk tree, and COMPLIANCE.md here. (AGPL-3.0 §5(a))
+
 use std::{
     collections::{HashMap, HashSet},
     fs,
